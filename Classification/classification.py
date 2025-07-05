@@ -282,7 +282,7 @@ def main(data_obj):
                     except:
                         st.write("No model found!")
         
-    # Selected 'Random Forest (Sneha)'
+    # Selected 'Random Forest '
     if cl_method == 'Random Forest':
 
         # Container for inputs
@@ -314,7 +314,7 @@ def main(data_obj):
 
 
                 # Submit button
-                with st.form(key="Sneha"):
+                with st.form(key="submit"):
                     submit_button = st.form_submit_button(label='Submit')
 
                     
@@ -342,7 +342,7 @@ def main(data_obj):
                                 obj.accuracy()
 
                             except ValueError as e:
-                                st.error('Something went wrong, Sneha...')
+                                st.error('Something went wrong')
         
 # Main
 if __name__ == "__main__":

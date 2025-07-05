@@ -5,7 +5,7 @@ from io import StringIO #to read data files as .csv correctly
 import os #to work with files
 
 # Streamlit main page configuration
-st.set_page_config(page_title="Data Analytics Dashboard",
+st.set_page_config(page_title="FlashInsights",
                     page_icon=None,
                     layout="wide",
                     initial_sidebar_state="expanded",
