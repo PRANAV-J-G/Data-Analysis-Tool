@@ -56,7 +56,7 @@ def main():
     """, unsafe_allow_html=True)
     
     # Main header with emoji
-    st.markdown('<h1 class="main-header">🚀 Data Analysis Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🚀 Flash Insights</h1>', unsafe_allow_html=True)
     
     # Welcome message with better formatting
     st.markdown("---")
